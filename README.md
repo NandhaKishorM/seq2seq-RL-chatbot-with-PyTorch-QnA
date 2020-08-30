@@ -8,6 +8,6 @@
 * We finished modification and moved towards the integration of PyTorch model which was trained on Stanford Question Answering Dataset (SQuAD) and various COVID-19 articles. This is fast and gives rapid response to the user. 
 # How it works
 
-* We upload PDF files of various articles, news related to the pandemic in the backend, the PyTorch model will do a semantic search and find the best answer. The question and answers are saved as source and target file to train our Seq2Seq model. The model gets fine tuned with pretrained sentimental anlalysis model using RL which will be deployed in the edge.
+* We upload PDF files of various articles, news related to the desired goal in the backend, the PyTorch model will do a semantic search and find the best answer. The question and answers are saved as source and target file to train our Seq2Seq model. The model gets fine tuned with pretrained sentimental anlalysis model using RL which will be deployed in the edge.
  # RUN on Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xRaw1bmtqAueGvcBBVhPxr_laKkD3yjs?usp=sharing)
